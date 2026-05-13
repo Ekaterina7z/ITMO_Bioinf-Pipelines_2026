@@ -1,0 +1,14 @@
+name: pipeline_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - fastqc
+  - fastp
+  - spades
+  - bwa
+  - samtools
+  - bcftools
+  - sra-tools
+  
